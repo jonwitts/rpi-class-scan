@@ -1,0 +1,7 @@
+# Config file #
+###############
+config.py
+
+# Auto save files #
+###################
+*.save
