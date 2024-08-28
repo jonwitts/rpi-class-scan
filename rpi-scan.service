@@ -1,0 +1,10 @@
+[Unit]
+Description=Raspberry Pi MiFare Scanner Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/rpi-scan/read.py
+
+[Install]
+WantedBy=multi-user.target
